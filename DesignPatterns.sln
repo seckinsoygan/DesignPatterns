@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{67230974-9C62-4153-A5AD-BB888A0DC0D7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositeDesignPattern", "CompositeDesignPattern", "{FA327289-A83D-4D60-ABE5-A62593A27854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Composite", "CompositeDesignPattern\DesignPattern.Composite\DesignPattern.Composite.csproj", "{83A0BC3D-B61A-4BC3-BA4F-5734792C1229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,10 @@ Global
 		{67230974-9C62-4153-A5AD-BB888A0DC0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67230974-9C62-4153-A5AD-BB888A0DC0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67230974-9C62-4153-A5AD-BB888A0DC0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A0BC3D-B61A-4BC3-BA4F-5734792C1229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A0BC3D-B61A-4BC3-BA4F-5734792C1229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A0BC3D-B61A-4BC3-BA4F-5734792C1229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A0BC3D-B61A-4BC3-BA4F-5734792C1229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +118,7 @@ Global
 		{08E83670-787C-44B0-B73E-04DCBFE5F46A} = {30771808-A909-49FF-86B4-1955FC115818}
 		{47520B3E-C906-40AE-9E32-C8C0C7DDE253} = {30771808-A909-49FF-86B4-1955FC115818}
 		{67230974-9C62-4153-A5AD-BB888A0DC0D7} = {30771808-A909-49FF-86B4-1955FC115818}
+		{83A0BC3D-B61A-4BC3-BA4F-5734792C1229} = {FA327289-A83D-4D60-ABE5-A62593A27854}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {672740EC-175D-4B59-8A35-22EA77443B46}
